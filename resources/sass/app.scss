@@ -1,0 +1,78 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+// Custom app styles
+
+body {
+    background-color: $body-bg;
+}
+
+.navbar {
+    background-color: $primary;
+}
+
+.navbar-brand, 
+.navbar-nav .nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: $secondary !important;
+    transition: 0.2s;
+}
+
+.navbar .nav-link.active {
+    background-color: rgba(255,255,255,0.15);
+    border-radius: 8px;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 6px 14px rgba(0,0,0,0.04);
+}
+
+.card-header {
+    background-color: #F1F5F3;
+    font-weight: 600;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.card-body h6 {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+
+
+// h4 {
+//     color: $dark;
+// }
+
+// ul li {
+//     margin-bottom: 6px;
+// }
+
+// .table {
+//     background: white;
+//     border-radius: 10px;
+//     overflow: hidden;
+// }
+
+// .table thead {
+//     background-color: #f1f4f4;
+// }
+
+// .btn-primary {
+//     font-weight: 500;
+// }
+
+// .form-control {
+//     border-radius: 8px;
+// }
